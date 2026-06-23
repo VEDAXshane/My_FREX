@@ -1,11 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FREX_BOX</title>
+    <style>
+      input{
+        border-radius: 100px;
+      }
+        .A {
+            background-color: blue;
+            color: aliceblue;
+            border-radius: 90px;
+            border: 1px;
+            font-weight: bold;
+
+
+        }
+
+        .B {
+            background-color: #2c73ae;
+            color: white;
+            border-radius: 4px;
+            border: 1px;
+            font-weight: bold;
+            width: 100px;
+            height: 50px;
+            margin: 20px;
+
+
+
+        }
+
+        .C {
+
+            width: 50px;
+            height: 50px;
+            border-radius: 100px;
+            border: 0px;
+
+        }
+        .D{
+border:solid white;
+background-color: hsl(273, 60%, 43%);
+border-radius: 6px;
+color: white;
+        }
+
+        img {
+            width: 130%;
+            height: 100%;
+            border-radius: 100%;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div style="display: grid;">
+
+        <div style="border: solid 1px gray; width: 300px; padding-bottom: 30px;">
+            <div
+                style="display: flex; flex-direction: row; justify-content: space-between;align-items: end; padding: 20px;">
+                Home
+                <div style="justify-content: end;"><button class="A">14</button></div>
+            </div>
+            <div
+                style="display: flex; flex-direction: row; justify-content: space-between;align-items: end;  padding: 20px;">
+                Notifications <div><button class="A">3</button></div>
+            </div>
+            <div
+                style="display: flex; flex-direction: row; justify-content: space-between;align-items: end; padding: 20px;">
+                Messages <div><button class="A">5</button></div>
+            </div>
+
+        </div>
+
+        <div style="border-right: solid 4px gray; padding: 10px; background-color: white;">
+            <div style="display: flex; flex-direction: row; justify-content: space-between;align-items: end; "><button
+                    class="C"> <img src="img1.jpg"> </button>
+
+                <div style="justify-content: end;"><button class="B">Follow</button></div>
+            </div>
+            <div style="display: flex; flex-direction: row; align-items: end; justify-content: space-between; ">
+                <button class="C"> <img src="img2.jpg"></button>
+                <div><button class="B">Follow</button></div>
+            </div>
+            <div style="display: flex; flex-direction: row; justify-content: space-between;align-items: end;padding-bottom: 30px; "><button
+                    class="C"> <img src="img3.jpg">
+                    <div></div>
+                </button>
+                <div><button class="B">Follow</button></div>
+            </div>
+
+            <div style="background-color: aliceblue; border: solid 1px white; margin-right: 4px;">
+                <div style="background-color: hsl(273, 60%, 43%); padding: 4px; display: flex; flex-direction: row; justify-content: space-between;"><div>Home</div><div style="width:2fr ;"><input type="text"
+                    name="search"
+                    placeholder="search..."></div><div><button class="D">download</button></div>
+            </div>
+
+        </div>
 </body>
+
 </html>
