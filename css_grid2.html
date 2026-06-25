@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1 {
+            display: grid;
+            grid-template-columns: 200px 75px;
+        }
+
+        .A1 {
+            background-color: rgb(27, 220, 238);
+        }
+
+        .A2 {
+            background-color: #ef96df;
+        }
+
+        .div2 {
+            display: grid;
+            grid-template-columns: 50px 1fr 75px;
+        }
+
+        .B1 {
+            background-color: rgb(27, 220, 238);
+        }
+
+        .B2 {
+            background-color: #ef96df;
+        }
+
+        .B3 {
+            background-color: rgb(27, 220, 238);
+        }
+
+        .div3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            row-gap: 10px;
+            column-gap: 20px;
+
+        }
+
+        .C1 {
+            background-color: #ef96df;
+        }
+
+        .C2 {
+            background-color: #ef96df;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <div class="A1">colum1</div>
+        <div class="A2">colum2</div>
+    </div><br><br>
+    <div class="div2">
+        <div class="B1">col1</div>
+        <div class="B2">col2</div>
+        <div class="B3">col3</div>
+    </div><br><br>
+    <div class="div3">
+        <div class="C1">col1</div>
+        <div class="C2">col2</div>
+        <div class="C1">col3</div>
+        <div class="C2">col4</div>
+        <div class="C1">col1</div>
+        <div class="C2">col2</div>
+        <div class="C1">col3</div>
+        <div class="C2">col4</div>
+    </div>
+    
+</body>
+</html>
